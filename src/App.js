@@ -1,42 +1,27 @@
-import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 
-function App() {
+import React from "react"
+import Home from "./Home"
+import About from "./About"
+import Header from "./Header"
+import Skills from "./Skills"
+import Work from "./Work"
+import Contact from "./Contact"
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+
+
+const App = () => {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
-  );
+  <BrowserRouter>
+    <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+      <About/>
+      <Skills/>
+    <Work/>
+    <Contact/>
+  </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

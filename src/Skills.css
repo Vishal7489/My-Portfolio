@@ -1,0 +1,28 @@
+.items{
+    width:100px;
+    height:30px;
+    margin:3px;
+    padding-left:30px;
+    padding-top:20px;
+    border:2px solid black;
+
+}
+
+.star{
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding-left:350px;
+    color:white;
+}
+
+#second{
+padding-left:560px;
+color:white;
+}
+#para{
+padding-left:360px;
+color:white;
+}
+.skill{
+height:600px;
+}

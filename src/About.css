@@ -1,0 +1,35 @@
+.about{
+display:flex;
+height:200px;
+}
+.about1{
+    color:white;
+    width:250px;
+    height:200px;
+    font-size:23px;
+    margin-left:100px;
+}
+#about3{
+   
+   width:100vw;
+   height:80px;
+   padding-left:300px;
+   padding-top:30px;
+}
+.about2{
+    color:white;
+    height:200px;
+    
+}
+.About{
+    height:400px;
+    width:800px;
+    margin-left:280px;
+    background-color:darkcyan;
+    border:2px solid black;
+}
+.About10{
+    height:100vh;
+}
+
+

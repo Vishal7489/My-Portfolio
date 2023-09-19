@@ -1,0 +1,39 @@
+#index{
+padding-left:560px;
+}
+#index1{
+    height:20px;
+    width:500px;
+    border:2px solid black;
+    margin:2px;
+}
+#index2{
+    height:20px;
+    width:500px;
+    border:2px solid black;
+}
+#index8{
+    height:200px;
+    width:500px;
+    border:2px solid black;
+}
+.paraindex{
+    height:100vh;
+    
+}
+#index4{
+    color:white;
+    padding-left:550px;
+}
+.paraindex2{
+    padding-left:400px;
+}
+#but{
+padding-left:200px;
+}
+button{
+    color:black;
+    border-radius:none;
+}
+
+
